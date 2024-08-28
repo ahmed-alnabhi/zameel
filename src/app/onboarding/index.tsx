@@ -73,7 +73,7 @@ export default function Onboarding() {
 function SliderPage({ title, description, screenWidth, adaptiveColor }) {
   return (
     <YStack
-      style={{ width: screenWidth }}
+      w={screenWidth}
       gap="$2">
       <H1
         py="$2"
